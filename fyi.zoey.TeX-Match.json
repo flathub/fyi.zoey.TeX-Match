@@ -38,6 +38,10 @@
                     "tag": "v1.2.0",
                     "commit": "cbce3dfee6420363ab1eb4b4e96fa0c20318a4ed"
                 },
+                {
+                    "type": "patch",
+                    "path": "fix_appdata.patch"
+                },
                 "generated-sources.json"
             ]
         }
