@@ -1,0 +1,32 @@
+From 3925c5e2fe488d8542a7cbfa8731c0334481d26b Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Mon, 15 Dec 2025 13:58:10 +0300
+Subject: [PATCH] Fix appdata papercuts
+
+---
+ data/fyi.zoey.TeX-Match.metainfo.xml | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+diff --git a/data/fyi.zoey.TeX-Match.metainfo.xml b/data/fyi.zoey.TeX-Match.metainfo.xml
+index 65646e9..266d028 100644
+--- a/data/fyi.zoey.TeX-Match.metainfo.xml
++++ b/data/fyi.zoey.TeX-Match.metainfo.xml
+@@ -19,6 +19,8 @@
+     </screenshot>
+   </screenshots>
+   <url type="homepage">https://tex-match.zoey.fyi/</url>
++  <url type="bugtracker">https://github.com/zoeyfyi/TeX-Match/issues</url>
++  <url type="vcs-browser">https://github.com/zoeyfyi/TeX-Match</url>
+   <content_rating type="oars-1.0" />
+   <releases>
+     <release version="1.2.0" date="2020-12-30">
+@@ -76,4 +78,4 @@
+     <id>uk.co.mrbenshef.TeX-Match</id>
+   </provides>
+   <launchable type="desktop-id">fyi.zoey.TeX-Match.desktop</launchable>
+-</component>
+\ No newline at end of file
++</component>
+--
+libgit2 1.7.2
+

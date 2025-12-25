@@ -1,7 +1,7 @@
 {
     "app-id": "fyi.zoey.TeX-Match",
     "runtime": "org.freedesktop.Platform",
-    "runtime-version": "22.08",
+    "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable"
@@ -37,6 +37,10 @@
                     "url": "https://github.com/zoeyfyi/TeX-Match/",
                     "tag": "v1.2.0",
                     "commit": "cbce3dfee6420363ab1eb4b4e96fa0c20318a4ed"
+                },
+                {
+                    "type": "patch",
+                    "path": "fix_appdata.patch"
                 },
                 "generated-sources.json"
             ]
