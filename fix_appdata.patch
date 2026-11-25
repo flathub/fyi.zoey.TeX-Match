@@ -14,7 +14,8 @@ index 65646e9..266d028 100644
 @@ -19,6 +19,8 @@
      </screenshot>
    </screenshots>
-   <url type="homepage">https://tex-match.zoey.fyi/</url>
+-  <url type="homepage">https://tex-match.zoey.fyi/</url>
++  <url type="homepage">https://github.com/zoeyfyi/TeX-Match</url>
 +  <url type="bugtracker">https://github.com/zoeyfyi/TeX-Match/issues</url>
 +  <url type="vcs-browser">https://github.com/zoeyfyi/TeX-Match</url>
    <content_rating type="oars-1.0" />
