@@ -1,0 +1,40 @@
+From 0f4a212531b83357395383042e2286bd6bb98766 Mon Sep 17 00:00:00 2001
+From: Sabri Ünal <yakushabb@gmail.com>
+Date: Wed, 25 Nov 2026 22:07:43 +0300
+Subject: [PATCH] Update the website URL
+
+The website URL returning error for years.
+---
+ Cargo.toml          | 2 +-
+ resources/app.glade | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/Cargo.toml b/Cargo.toml
+index 3c560fe..49546f4 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -5,7 +5,7 @@ authors = ["Zoey Sheffield <me@zoey.fyi>"]
+ edition = "2018"
+ description = """Search through over 1000 different LaTeX symbols by sketching"""
+ license = "MIT"
+-homepage = "https://tex-match.zoey.fyi"
++homepage = "https://github.com/zoeyfyi/tex-match/"
+ repository = "https://github.com/zoeyfyi/tex-match/"
+ keywords = ["gtk", "computer-vision", "linux", "latex", "tex"]
+ categories = ["computer-vision"]
+diff --git a/resources/app.glade b/resources/app.glade
+index 9057d44..5fe494b 100644
+--- a/resources/app.glade
++++ b/resources/app.glade
+@@ -5,7 +5,7 @@
+   <object class="GtkAboutDialog" id="about_dialog">
+     <property name="program_name" translatable="yes">Tex Match</property>
+     <property name="copyright" translatable="yes">Copyright 2020 Zoey Sheffield</property>
+-    <property name="website">https://tex-match.zoey.fyi</property>
++    <property name="website">https://github.com/zoeyfyi/tex-match/</property>
+     <property name="website_label">tex-match.zoey.fyi</property>
+     <property name="authors">Zoey Sheffield</property>
+     <property name="logo_icon_name">fyi.zoey.TeX-Match</property>
+--
+libgit2 1.9.7
+
